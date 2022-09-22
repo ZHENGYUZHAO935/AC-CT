@@ -1,5 +1,7 @@
 /* Reset */
-
+html {
+    font-size: 10px;
+}
 
 body{
     margin:0;
@@ -27,6 +29,7 @@ nav li{
     text-align:center;
     text-transform: uppercase;
     border-bottom: 1px black solid;
+    font-size: 2rem;
 }
 
 nav li a{
@@ -46,11 +49,26 @@ nav li a{
 @media (min-width:600px){
     nav ul{
         flex-direction: row;
+        justify-content: space-around;
     }
 
     .no-btm-border{
         border-bottom: 1px solid black;
     }
+}
+
+#homelink{
+    padding: 12px;
+    background-color: aqua;
+    order: 1;
+}
+
+#bloglink{
+    order: 2;
+}
+
+#connectlink{
+    order: 3;
 }
 
 /* Main */
@@ -65,4 +83,13 @@ h1{
 h3{
     font-weight: 400;
     font-size: 32px;
+}
+
+@media (min-width: 900px){
+    h1 {
+        font-size: 6rem;
+    }
+    h3 {
+        font-size: 3rem;
+    }
 }
