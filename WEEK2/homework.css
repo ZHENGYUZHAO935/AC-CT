@@ -1,0 +1,90 @@
+/* Reset */
+html {
+    font-size: 10px;
+}
+
+body{
+    margin:0;
+}
+
+img{
+    max-width:100%;
+}
+
+nav ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+/* Nav */
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    font-family: Garamond, serif;
+}
+
+nav li{
+    padding:10px;
+    text-align:center;
+    text-transform: uppercase;
+    border-bottom: 1px rgb(69, 221, 186) solid;
+    font-size: 30px;
+}
+
+nav li a{
+    color:rgb(199, 154, 216);
+    text-decoration: none;
+}
+
+.no-btm-border{
+    border-bottom: none;
+}
+
+.current {
+    font-style: italic;
+    font-weight: 600;
+}
+
+@media (min-width:600px){
+    nav ul{
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+
+    }
+    nav li a{
+        color:aliceblue;
+    };
+
+    .no-btm-border{
+        border-bottom: 1px solid rgb(109, 181, 224);
+    }
+}
+
+
+/* Main */
+h1,h3{
+    font-family: 'Brush Script MT', cursive;
+    color:azure;
+}
+
+h1{
+    font-weight: 300;
+    font-size: 64px;
+}
+h3{
+    font-weight: 400;
+    font-size: 32px;
+}
+
+@media (min-width: 800px){
+    h1 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 30px;
+        color: rgb(82, 41, 204)
+    
+    }
+}
