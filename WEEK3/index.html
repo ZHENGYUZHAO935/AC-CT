@@ -11,30 +11,21 @@
             height: 100vh;
         }
 
+        main img
     </style>
 
 </head>
 <body>
     <header>
         <button id="colorBtn">Click Me!</button>
+        <button id="textBtn">Click for text</button>
+
+        <img src="SNice.svg" alt="smile face" id="imageBtn">
     </header>
 
     <main id="mainElem"></main>
 
-    <script>
-        let clrButton = document.getElementById("colorBtn")
-        console.log(clrButton)
-        const mnElement = document.getElementById("mainElem")
-
-        clrButton.addEventListener("click",()=>{
-            let red = Math.random()*255
-            let green = Math.random()*255
-            let blue = Math.random()*255
-            console.log(red)
-            mnElement.style.backgroundColor = "rgb(" + red + "," + green + "," + blue + ")"
-
-        })
-
+    <script src="script.js">
 
     </script>
 
