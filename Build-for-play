@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="background-color:rgb(229, 127, 12);">Crossing Weak Riverside</h1>
+    
+
+    
+    <h3>Game background: </h3>
+        <p>In Chinese mythology, there is a river called "Weak Water River" that connects the "Living World" (the world of the living) and the "Palace of the Underworld" (the entrance to the world of the dead). Boats and people from the living world cannot cross this river, only a special "guide" can traverse the Weak Water River and reach the Palace of the Underworld. At the same time, numerous lost souls float on the Weak Water River, and the guide needs to help these souls cross the river and arrive at the Palace of the Underworld at the end.</p>
+
+    <h3>Game objective: </h3>
+        <p>Control a boat (a small black ball) to navigate the Weak Water River, collect souls trapped in lanterns, and ultimately lead them to the final destination, the Palace of the Underworld. For each soul collected, you will earn one point, and only by accumulating 99 points and reaching the endpoint can you be considered a "qualified guide" and successfully complete the game. There are no barriers on either side of the Weak Water River; if you accidentally fall or fail to accumulate enough points, the game will be lost.</p>
+        
+    <h3>Gameplay: </h3>
+        <p>Use four physical buttons to control the player ball's movement (forward, backward, left, and right), helping it dodge obstacles and collect lanterns floating on the river. Each collected lantern earns one point.</p>
+        
+      <h3>Game feedback:</h3>
+        <p>1. Using a small ball as the player "guide" is not realistic enough, and the game is somewhat simplistic, lacking immersion in the game's background. </p>
+        <p>2. Obstacles are relatively easy to avoid; a point deduction mechanism could be implemented to increase the fun and challenge of the game. </p>
+        <p>3. Currently, there is no prompt for "game clearance" upon reaching the endpoint. </p>
+
+
+    <h3>Future game improvements:</h3>    
+        
+        <p>1. Add reasonable obstacles, implement a point deduction mechanism, and improve prompts for game clearance and failure. </p>
+        <p>2. Add functionality for the player to move vertically. </p>
+        <p>3. I hope to improve the physical control from buttons to a 6-axis gyroscope MPU6050, securing the gyroscope on the hand with a ring. This would allow the player's movement to be controlled by capturing hand movements and gestures, increasing the fun of the game. </p>
+        <p>4. Add sound effects!</p>
+
+    <video width="450" height="800" controls>
+        <source src="Playing-Game.mp4" type="video/mp4">
+        <source src="Playing-Game.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+      </video>
+
+      <img src="weak river_1.png" style="width:100%">
+      <img src="weak river_2.png" style="width:100%">
+      <img src="weak river_4.png" style="width:100%">
+
+
+    
+</body>
+</html>
