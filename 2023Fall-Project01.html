@@ -15,14 +15,25 @@
     <img src="project01-diagram02.png" style="width:50%">
     
     <h2>Prepare for the creative Touch Clock</h2>
-    <h3>LED Strips * 3, distance sensor/Other sensor or button to control the light</h3>
-    <img src="01-change light scale.png" style="width:70%">
-    <img src="01-change light scale.gif" style="width:50%">
-    
-    <h3>02-change light from purple to white. Since I want to simulate the this shader as film playing in the movie theater, I tried to change the light color to white to simulate the principle lighting</h3>
-    <img src="02-change light white.png" style="width:50%">
-    <img src="02-change light white.gif" style="width:50%">
-    
+    <h3>LED Strips * 3, distance sensor/Other sensor or button to control the light, Arduino</h3>
+    <img src="sensors.png" style="width:70%">
+
+    <h3>forget to change the device</h3>
+    <img src="change device.png" style="width:50%">
+
+    <h3>light up and turn off one by one on single LED strip</h3>
+    <img src="1 light on no black.png" style="width:50%">
+
+    <h3>light up from single LED strip to 3 LED strips, tried to light up the 3 strips in the same time, but each of the strip light up and turn off in different frequency</h3>
+    <img src="3LED Strips-3 for loops.png" style="width:50%">
+
+    <h2>Problem 1: the current code only allows one strip to work, and the next one can only work after the first strip has done.</h2>
+    <h3>Then I tried including all 3 trips in the same 'for' loop instead of 3 different ones</h3>
+    <img src="3LED Strips-1 for loops.png" style="width:50%">
+
+    <h3>Problem 2: All 3 strips still working one by one, but change from (111111…., 22222222…., 33333333….) to (1,2,3,1,2,3,1,2,…)</h3>
+    <img src="1 for loop.gif" style="width:50%">
+
     <h3>03-08 tried to play with different elements here, to see what's gonna change</h3>
     <img src="03-08.png" style="width:50%">
     <p>03</p>
